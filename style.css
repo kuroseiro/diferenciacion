@@ -1,0 +1,33 @@
+html{
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+}
+#titulo{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 5em;
+  margin-bottom: 12%;
+  color: #FFD024;
+}
+.menu{
+  text-align: center;
+  padding: 1em;
+  background-color: #2335FF;
+  border-radius: 10px;
+  box-shadow: #737EFF 0px 0px 5px;
+}
+.letra{
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  color: #FFD024;
+}
+#container{
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: repeat(1, minmax(250px, 500px));
+  grid-template-rows: repeat(1, 4em);
+  grid-auto-rows: 4em;
+  justify-content: center;
+}
