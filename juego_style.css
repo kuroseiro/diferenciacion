@@ -1,0 +1,40 @@
+img{
+  text-align: center;
+  width: 270px;
+}
+#titulo{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 5em;
+  margin-bottom: 5%;
+  color: #FFD024;
+}
+#container{
+  display: grid;
+  grid-gap: 4em;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 8em 35em;
+  grid-auto-rows: 20%;
+}
+#zonaDestino_A{
+  background-color: rgb(113, 11, 101);
+  grid-column: 1;
+  grid-row: 2;
+}
+#zonaDestino_B{
+  background-color: rgba(113, 11, 101, 0.54);
+  grid-column: 3;
+  grid-row: 2;
+}
+#class_A{
+  background-color: rgb(215, 34, 2);
+}
+#Class_B{
+  background-color: rgba(215, 34, 2, 0.53);
+  grid-column: 3;
+}
+#despliegue{
+  background-color: rgb(14, 221, 60);
+  grid-column: 2;
+  grid-row: 2;
+}

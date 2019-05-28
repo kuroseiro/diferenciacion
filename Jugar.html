@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Juego</title>
   <script src="juego.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="juego_style.css">
 </head>
 <body>
   <header>
@@ -15,15 +16,15 @@
     <div id="class_A">
       <p class="pregunta"></p>
     </div>
-    <div id="zonaDestino_A" ondrop="drop(event)">
+    <div id="zonaDestino_A" ondrop="drop(event)" ondragover="permiso(event)">
     </div>
     <div id="despliegue" ondragover="permiso(event)">
-      <img src="" alt="" draggable="true" ondragstart="drag(event)">
+      <img src="image/cat.png" alt="gato" draggable="true" ondragstart="drag(event)" id="imagen">
     </div>
     <div id="Class_B">
       <p class="pregunta"></p>
     </div>
-    <div id="zonaDestino_B" ondrop="drop(event)">
+    <div id="zonaDestino_B" ondrop="drop(event)" ondragover="permiso(event)">
     </div>
   </div>
 </body>
