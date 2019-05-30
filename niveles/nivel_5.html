@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Juego</title>
+  <script src="nivel_4.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="juego_style.css">
+</head>
+<body>
+  <header>
+    <div id="titulo">Escoje a que grupo pertenece</div>
+  </header>
+  <div id="container">
+    <div id="class_A">
+      <p class="pregunta">
+        Carros
+      </p>
+    </div>
+    <div id="zonaDestino_A" ondrop="drop(event)" ondragover="permiso(event)">
+      <img src="image/auto.png" alt="gato" draggable="true" ondragstart="drag(event)" id="imagen_A">
+    </div>
+    <div id="despliegue" ondragover="permiso(event)" ondrop="drop(event)" >
+      <img src="image/moto.png" alt="gato" draggable="true" ondragstart="drag(event)" id="imagenRespuesta">
+    </div>
+    <div id="Class_B">
+      <p class="pregunta">
+        Motos
+      </p>
+    </div>
+    <div id="zonaDestino_B" ondrop="drop(event)" ondragover="permiso(event)">
+      <img src="image/motocicleta.png" alt="gato" draggable="true" ondragstart="drag(event)" id="imagen_B">
+    </div>
+  </div>
+</body>
+</html>
