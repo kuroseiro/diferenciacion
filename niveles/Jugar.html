@@ -13,24 +13,24 @@
     <div id="titulo">Escoje a que grupo pertenece</div>
   </header>
   <div id="container">
-    <div id="class_A">
-      <p class="pregunta">
-        Perros
-      </p>
-    </div>
-    <div id="zonaDestino_A" ondrop="drop(event)" ondragover="permiso(event)">
-      <img src="image/dog.png" alt="gato" draggable="true" ondragstart="drag(event)" id="imagen_A">
-    </div>
-    <div id="despliegue" ondragover="permiso(event)" ondrop="drop(event)" >
-      <img src="image/cat.png" alt="gato" draggable="true" ondragstart="drag(event)" id="imagenRespuesta">
-    </div>
-    <div id="Class_B">
-      <p class="pregunta">
+    <div id="A">
+      <p class="pregunta" id="class_A">
         Gatos
       </p>
     </div>
+    <div id="zonaDestino_A" ondrop="drop(event)" ondragover="permiso(event)">
+      <img name="zona_A" alt="A" draggable="true" ondragstart="drag(event)" id="imagen_A">
+    </div>
+    <div id="despliegue" ondragover="permiso(event)" ondrop="drop(event)" >
+      <img name="despliegue" alt="despliegue" draggable="true" ondragstart="drag(event)" id="imagenRespuesta">
+    </div>
+    <div id="B">
+      <p class="pregunta" id="class_B">
+        Perros
+      </p>
+    </div>
     <div id="zonaDestino_B" ondrop="drop(event)" ondragover="permiso(event)">
-      <img src="image/black-cat.png" alt="gato" draggable="true" ondragstart="drag(event)" id="imagen_B">
+      <img name="zona_B" alt="B" draggable="true" ondragstart="drag(event)" id="imagen_B">
     </div>
   </div>
 </body>

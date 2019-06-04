@@ -1,6 +1,6 @@
 html{
   overflow: hidden;
-  background: linear-gradient(to right, #3A14CC 0%, #B35A12 100%);
+  background: radial-gradient(circle, #77c9f2 0%, #1fd662 100%);
 }
 a{
   text-decoration: none;
@@ -10,23 +10,23 @@ a{
   font-family: 'Raleway', sans-serif;
   font-size: 5em;
   margin-bottom: 12%;
-  color: #FFD024;
+  color: #fff;
 }
 .menu{
   text-align: center;
   padding: 1em;
-  background-color: #2335FF;
+  background-color: #c882f5;
   border-radius: 10px;
   box-shadow: #737EFF 0px 0px 5px;
   transition: transform 1s ease-out;
 }
 .menu:hover{
-  background-color: #b811c3;
+  background-color: #E9C4FF;
 }
 .letra{
   font-family: 'Merriweather', serif;
   font-size: 2em;
-  color: #FFD024;
+  color: #fff;
 }
 #container{
   display: grid;
