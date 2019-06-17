@@ -18,19 +18,19 @@
         Gatos
       </p>
     </div>
-    <div id="zonaDestino_A" ondrop="drop(event)" ondragover="permiso(event)">
-      <img name="zona_A" alt="A" draggable="true" ondragstart="drag(event)" id="imagen_A">
+    <div id="zonaDestino_A" ondrop="drop(event)" ondragover="permiso(event)" ondragenter="entrar(event)" ondragleave="salir(event)">
+      <img name="zona_A" alt="A" id="imagen_A">
     </div>
-    <div id="despliegue" ondragover="permiso(event)" ondrop="drop(event)" >
-      <img name="despliegue" alt="despliegue" draggable="true" ondragstart="drag(event)" id="imagenRespuesta">
+    <div id="despliegue" ondrop="drop(event)" ondragenter="entrar(event)" ondragleave="salir(event)">
+      <img name="despliegue" alt="despliegue" draggable="true" ondragstart="drag(event)" id="imagenRespuesta" ondragend="siguiente_nivel(event)">
     </div>
     <div id="B">
       <p class="pregunta" id="class_B">
         Perros
       </p>
     </div>
-    <div id="zonaDestino_B" ondrop="drop(event)" ondragover="permiso(event)">
-      <img name="zona_B" alt="B" draggable="true" ondragstart="drag(event)" id="imagen_B">
+    <div id="zonaDestino_B" ondrop="drop(event)" ondragover="permiso(event)" ondragenter="entrar(event)" ondragleave="salir(event)">
+      <img name="zona_B" alt="B" id="imagen_B">
     </div>
   </div>
 </body>
